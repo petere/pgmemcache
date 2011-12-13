@@ -1,3 +1,10 @@
+pgmemcache (2.0.6-1) UNRELEASED; urgency=low
+
+  * Changed Debian packaging to use pg_buildext, and various other
+    packaging cleanup
+
+ -- Peter Eisentraut <peter@eisentraut.org>  Tue, 13 Dec 2011 21:48:13 +0200
+
 pgmemcache (2.0.6) unstable; urgency=low
 
   * v2.0.6

@@ -1,0 +1,15 @@
+Source: pgmemcache
+Section: database
+Priority: optional
+Maintainer: Peter Eisentraut <peter@eisentraut.org>
+Standards-Version: 3.9.2
+Build-Depends: debhelper (>= 8), libmemcached-dev, libsasl2-dev, postgresql-server-dev-all (>= 119~)
+Homepage: https://github.com/petere/pgmemcache
+
+Package: postgresql-9.1-pgmemcache
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}, postgresql-9.1
+Description: memcached client functions for PostgreSQL 9.1
+ pgmemcache is a set of PostgreSQL user-defined functions that provide
+ an interface to memcached.
+
